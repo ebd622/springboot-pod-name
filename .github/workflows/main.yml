@@ -1,4 +1,4 @@
-name: calculate-ci-job
+name: pod-name-ci-job
 on:  
   push:
     branches-ignore: [ master ]
@@ -17,7 +17,7 @@ jobs:
      matrix:
        os: [ubuntu-latest]
           
-    name: calculate-ci-job
+    name: pod-name-ci-job
     steps:
     - name: Checkout
       uses: actions/checkout@v1
@@ -59,7 +59,7 @@ jobs:
     - if: always()
       name: Build & Deploy
       run: | 
-        cd maths && jfrog rt mvn clean install
+        jfrog rt mvn clean install
         
     - if: always() 
       name: Publish Build Information
@@ -79,7 +79,7 @@ jobs:
     - if: always()
       name: Build Promotion
       run: |
-        jfrog rt bpr calculate-ci-job ${GITHUB_SHA} libs-release 
+        jfrog rt bpr pod-name-ci-job ${GITHUB_SHA} libs-release
         
     - if: always()
       name: Feature Branch Repository Deletion
