@@ -4,8 +4,8 @@ on:
     branches-ignore: [ master ]
   pull_request:   
     branches-ignore: [ master ]
-  schedule: 
-    - cron:  '0 1 * * *'
+#  schedule:
+#    - cron:  '0 1 * * *'
        
 jobs: 
   build-jdk8:
