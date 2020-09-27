@@ -10,15 +10,15 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>springboot-pod-name</artifactId>
-	<version>1.0.0</version>
-<!--	<version>1.0.0-SNAPSHOT</version>-->
+<!--	<version>1.0.0</version>-->
+	<version>1.0.1-SNAPSHOT</version>
 	<name>springboot-pod-name</name>
 	<description>Demo app for Kubernetes to get and show a pod-name</description>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<project.distribution.url>https://ebd.jfrog.io/artifactory/libs-release/</project.distribution.url>
-<!--		<project.distribution.url>https://ebd.jfrog.io/artifactory/libs-snapshot/</project.distribution.url>-->
+<!--		<project.distribution.url>https://ebd.jfrog.io/artifactory/libs-release/</project.distribution.url>-->
+		<project.distribution.url>https://ebd.jfrog.io/artifactory/libs-snapshot/</project.distribution.url>
 <!--		<project.distribution.url>https://ebd.jfrog.io/artifactory/jcenter/</project.distribution.url>-->
 	</properties>
 
