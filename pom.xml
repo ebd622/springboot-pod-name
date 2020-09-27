@@ -23,8 +23,8 @@
 		<repository>
 			<id>central</id>
 			<name>artifactory</name>
-<!--			<url>${project.distribution.url}</url>-->
-			<url>https://ebd.jfrog.io/artifactory/libs-snapshot/</url>
+			<url>${project.distribution.url}</url>
+<!--			<url>https://ebd.jfrog.io/artifactory/libs-snapshot/</url>-->
 <!--			<url>https://ebd.jfrog.io/artifactory/jcenter/</url>-->
 		</repository>
 	</distributionManagement>
