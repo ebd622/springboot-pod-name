@@ -22,6 +22,3 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml -s settings.xml
-
-    - name: Publish to Artifactory
-      run: mvn deploy -s settings.xml
