@@ -24,6 +24,7 @@ curl localhost:8090/pod-name
 --- Create deployment
 kubectl run p-name --image=ebd622/pod-name:0.0.2 -o yaml --dry-run > p.yaml
 
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -52,7 +53,7 @@ spec:
         name: p-name
         resources: {}
 status: {}
-
+```
 
 --- expose deployment
 kubectl expose deployment p-name --port=80 --target-port=8090 --type=NodePort
