@@ -1,8 +1,10 @@
 # springboot-pod-name
 Demo app for Kubernetes to get and show a pod-name
 
-
+## 1. Build an image
+```
 docker build -t ebd622/pod-name .
+```
 
 winpty docker exec -it a7497c710ba7 bash
 
