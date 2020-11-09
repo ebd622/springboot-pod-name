@@ -14,7 +14,10 @@ docker tag <IMAGE_ID> ebd622/pod-name:<TAG>
 ```
 
 --- check image:
+```
 docker run --rm -p 8090:8090 ebd622/pod-name
+```
+(If you use `-d` with `--rm`, the container is removed when it exits or when the daemon exits, whichever happens first)
 
 docker push ebd622/pod-name:0.0.1
 
