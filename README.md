@@ -8,8 +8,10 @@ docker build -t ebd622/pod-name .
 
 winpty docker exec -it a7497c710ba7 bash
 
-
-docker tag ca25adc3f3c3 ebd622/pod-name:0.0.2
+## 2. Tag the created image
+```
+docker tag <IMAGE_ID> ebd622/pod-name:<TAG>
+```
 
 --- check image:
 docker run --rm -p 8090:8090 ebd622/pod-name
