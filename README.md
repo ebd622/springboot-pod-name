@@ -13,7 +13,7 @@ winpty docker exec -it a7497c710ba7 bash
 docker tag <IMAGE_ID> ebd622/pod-name:<TAG>
 ```
 
-## 3. Check the image:
+## 3. Check the image
 ```
 docker run --rm -p 8090:8090 ebd622/pod-name
 ```
