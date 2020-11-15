@@ -22,7 +22,7 @@ docker run --rm -p 8090:8090 ebd622/pod-name
 ## 4. Push the image
 
 ```
-docker push ebd622/pod-name:0.0.1
+docker push ebd622/pod-name:<TAG>
 ```
 
 
