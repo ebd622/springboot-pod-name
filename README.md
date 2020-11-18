@@ -29,7 +29,7 @@ docker push ebd622/pod-name:<TAG>
 curl localhost:8090/pod-name
 ```
 
-
+##  Create deployment
 
 kubectl run p-name --image=ebd622/pod-name:0.0.2 -o yaml --dry-run > p.yaml
 
