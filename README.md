@@ -25,6 +25,7 @@ docker run --rm -p 8090:8090 ebd622/pod-name
 docker push ebd622/pod-name:<TAG>
 ```
 
+## 5. Test URL
 ```
 curl localhost:8090/pod-name
 ```
