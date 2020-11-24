@@ -32,7 +32,10 @@ curl localhost:8090/pod-name
 
 ## 6. Create deployment
 
+Run the following command to generate a yaml-file:
+```
 kubectl run p-name --image=ebd622/pod-name:0.0.2 -o yaml --dry-run > p.yaml
+```
 
 ```
 apiVersion: apps/v1
