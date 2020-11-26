@@ -36,6 +36,7 @@ Run the following command to generate a yaml-file:
 ```
 kubectl run p-name --image=ebd622/pod-name:0.0.2 -o yaml --dry-run > p.yaml
 ```
+When yaml-file is generated you need to make some changes in it:
 
 ```
 apiVersion: apps/v1
