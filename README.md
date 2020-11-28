@@ -40,6 +40,17 @@ When yaml-file is generated you need to modify it.
 Some args must be provided in the section `spec` for `containers`:
 
 ```
+spec:
+  containers:
+  - args:
+    - mvn
+    - clean
+    - spring-boot:run
+```
+
+
+
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
