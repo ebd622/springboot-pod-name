@@ -81,5 +81,5 @@ spec:
 status: {}
 ```
 
---- expose deployment
+## 7. Expose deployment
 kubectl expose deployment p-name --port=80 --target-port=8090 --type=NodePort
