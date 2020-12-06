@@ -48,7 +48,7 @@ spec:
     - spring-boot:run
 ```
 
-After modifying your `p.yaml` should look like this:
+After appending args,  your modified `p.yaml` should look like this:
 
 ```
 apiVersion: apps/v1
