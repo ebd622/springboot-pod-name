@@ -71,7 +71,7 @@ spec:
         run: p-name
     spec:
       containers:
-      - args:
+      **- args:**
         - mvn
         - clean
         - spring-boot:run
