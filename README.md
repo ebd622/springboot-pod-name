@@ -83,6 +83,7 @@ status: {}
 
 ## 7. Expose deployment
 
+The last step is to make the deployemnt available outside a cluster via the NodePort.
 Then run the command to expose the deployment:
 
 ```
