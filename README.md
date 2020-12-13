@@ -21,6 +21,8 @@ docker run --rm -p 8090:8090 ebd622/pod-name
 
 ## 4. Push the image
 
+Run the following command to push an image to the docker hub:
+
 ```
 docker push ebd622/pod-name:<TAG>
 ```
