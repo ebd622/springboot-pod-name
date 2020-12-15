@@ -2,6 +2,8 @@
 Demo app for Kubernetes to get and show a pod-name
 
 ## 1. Build an image
+First need to buld an image:
+
 ```
 docker build -t ebd622/pod-name .
 ```
