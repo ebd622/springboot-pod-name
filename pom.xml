@@ -18,23 +18,23 @@
 	<properties>
 		<java.version>1.8</java.version>
 <!--		<project.distribution.url>https://ebd.jfrog.io/artifactory/libs-release/</project.distribution.url>-->
-		<project.distribution.url>https://ebd.jfrog.io/artifactory/libs-snapshot/</project.distribution.url>
+		<!--project.distribution.url>https://ebd.jfrog.io/artifactory/libs-snapshot/</project.distribution.url-->
 <!--		<project.distribution.url>https://ebd.jfrog.io/artifactory/jcenter/</project.distribution.url>-->
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>artifactory</name>
-			<url>${project.distribution.url}</url>
-		</repository>
-	</distributionManagement>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<url>${project.distribution.url}</url>
-		</pluginRepository>
-	</pluginRepositories>
+<!--	<distributionManagement>-->
+<!--		<repository>-->
+<!--			<id>central</id>-->
+<!--			<name>artifactory</name>-->
+<!--			<url>${project.distribution.url}</url>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
+<!--	<pluginRepositories>-->
+<!--		<pluginRepository>-->
+<!--			<id>central</id>-->
+<!--			<url>${project.distribution.url}</url>-->
+<!--		</pluginRepository>-->
+<!--	</pluginRepositories>-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
