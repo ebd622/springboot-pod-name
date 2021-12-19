@@ -8,8 +8,6 @@ First need to buld an image:
 docker build -t ebd622/pod-name .
 ```
 
-winpty docker exec -it <CONTAINER_ID> bash
-
 ## 2. Tag the created image
 ```
 docker tag <IMAGE_ID> ebd622/pod-name:<TAG>
